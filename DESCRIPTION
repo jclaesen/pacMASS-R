@@ -1,0 +1,20 @@
+Package: pacMASS
+Type: Package
+Title: Predicting the Elemental Composition of Peptides and Small Proteins Based on the Monoisotopic Mass
+Version: 0.1.0
+Author: Jürgen Claesen <jurgen.claesen@gmail.com>
+Maintainer: Jürgen Claesen <jurgen.claesen@gmail.com>
+Description: An implementation of pacMASS, a method that de novo predicts the elemental composition of peptides
+    and small proteins based on the observed monoisotopic mass.
+    It returns in a fast and memory efficient manner a limited number of elemental
+    compositions per queried peptide or protein.
+Depends: R (>= 3.1.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/jclaesen/pacMASS/pacMASS-R
+BugReports: https://github.com/jclaesen/pacMASS/pacMASS-R/issues
+RoxygenNote: 7.0.0
+Imports: utils
+Suggests: 
+    testthat (>= 2.1.0)

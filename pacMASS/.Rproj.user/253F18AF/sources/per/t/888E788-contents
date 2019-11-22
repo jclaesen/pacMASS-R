@@ -1,0 +1,5 @@
+convertNeutralMass <- function(monoMass, charge){
+
+  neutralMass <- (monoMass-1.00794)*charge
+  return(neutralMass)
+}

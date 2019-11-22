@@ -1,0 +1,17 @@
+citHeader("To cite pacMASS in publications use:")
+
+citEntry(
+  entry    = "Article",
+  title    = "De novo prediction of the elemental composition of peptides and proteins based on a single mass",
+  author   = personList(as.person("Jürgen Claesen"), as.person("Dirk Valkenborg"), as.person("Tomasz Burzykowski")),
+  journal  = "Journal of Mass Spectrometry",
+  year     = 2019,
+  doi   = 10.1002/jms.4367,
+
+  textVersion =
+  paste("Jürgen Claesen, Dirk Valkenborg and Tomasz Burzykowski (2019).",
+        "De novo prediction of the elemental composition of peptides and proteins based on a single mass.",
+        "Journal of Mass Spectrometry.",
+        "doi:10.1002/jms.4367".)
+
+)

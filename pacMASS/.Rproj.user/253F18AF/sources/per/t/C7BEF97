@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574283879130.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "772161526",
+    "id" : "C7BEF97",
+    "lastKnownWriteTime" : 1574283918,
+    "last_content_update" : 1574283918068,
+    "path" : "~/Research projects/postDoc/proteomics/predict atomic composition with mass/pacMASS_application_note/pacMASS-R/pacMASS/R/calcRelRatios.R",
+    "project_path" : "R/calcRelRatios.R",
+    "properties" : {
+        "cursorPosition" : "148,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
