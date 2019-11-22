@@ -1,6 +1,0 @@
-filterMonoMass <- function(monoMass, lowerLimit=0, upperLimit=4000){
-
-  if((monoMass >= lowerLimit) & (monoMass <= upperLimit))
-    return(monoMass)
-
-}
