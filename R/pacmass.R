@@ -37,7 +37,7 @@ pacmass <- function(mz=NULL, z=NULL, fileNAME=NULL, nbS, ppm=5, alpha=0.05){
     }
   } else if (is.character(fileNAME)) {
     if (endsWith(fileNAME,'.txt') | endsWith(fileNAME, '.tsv')) {
-      mzFile <- read.table(fileNAME, header=TRUE)
+      mzFile <- read.table(fileNAME, header=TRUE, sep="\t")
       if (all(c("mz","z")%in%colnames(mzFile))) {
         monoMass <- convertNeutralMass(mzFile$mz, mzFile$z)
       } else {
@@ -60,7 +60,5 @@ pacmass <- function(mz=NULL, z=NULL, fileNAME=NULL, nbS, ppm=5, alpha=0.05){
     results[[k]] <- lapply(monoMass, calculateAC, nbS=nbS[k], ppm=ppm, alpha=alpha)
   }
 
-
-  rm(AC,isoDistr)
   return(results)
 }
